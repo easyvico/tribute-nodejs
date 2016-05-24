@@ -4,6 +4,7 @@ html(lang="en")
     title Tribute to Node.js
     link(href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css')
     link(href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css", rel="stylesheet", integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7", crossorigin="anonymous")
+    link(href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css", rel="stylesheet", integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1", crossorigin="anonymous")
     link(href="css/styles.css" rel="stylesheet")
     script(src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous")
     script(src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js", integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS", crossorigin="anonymous")
@@ -14,7 +15,7 @@ html(lang="en")
                 h1 Node.js test
                 h2.em bringing JavaScript to the server
                 #headline-image.thumbnail
-                    image(src="images/nodejs-new-white-pantone.png")
+                    img(src="images/nodejs-new-white-pantone.png" alt="Node.js image")
         .row
             .col-xs-8.col-xs-offset-2
                 h3 Here's a timeline of Node.js development to this point
@@ -39,8 +40,10 @@ html(lang="en")
                 hr
                 p Written and coded by 
                     a(href="https://github.com/P1xt") P1xt.
-                p Repository - 
-                    a(href="https://github.com/P1xt") 
+                p Repository available on 
+                    a(href="https://github.com/P1xt/tribute-nodejs") 
+                        i.fa.fa-github  GitHub
+                        
         .row
             .col-xs-12.text-center
                 p Uses - Bootstrap, Jade, SASS, Imagemin, Gulp, and (of course) Github and Surge
