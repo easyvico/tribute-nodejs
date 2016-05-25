@@ -1,0 +1,10 @@
+language: node_js
+node_js:
+  - "6"
+before_deploy:
+  - npm install -g gulp
+script: gulp
+deploy:
+  provider: surge
+  project: ./dist/
+  domain: p1xt-tribute-nodejs.surge.sh 

@@ -85,5 +85,5 @@ gulp.task('watch', function() {
     gulp.watch(_js_src     , ['js']);
 });
 
-
-gulp.task('default', ['jade', 'sass', 'js', 'images', 'watch', 'lite-server']);  
+gulp.task('server', ['jade', 'sass', 'js', 'images', 'watch', 'lite-server']);
+gulp.task('default', ['jade', 'sass', 'js', 'images']);  
