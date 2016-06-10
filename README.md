@@ -12,3 +12,13 @@ gulp server
 
 
 Utilizes Jade and Sass - both of which are interpreted as part of the build process.
+
+
+- Uses Sass and Jade
+- Simple Bootstrap layout
+- Build process using Gulp
+- Deploys on git commit via Travis-CI
+
+Online Demo:
+
+http://p1xt-tribute-nodejs.surge.sh/
